@@ -1,14 +1,14 @@
 import React from 'react';
 
-import DeliveryAddress from './individual-components/soe-delivery-address.jsx';
-import InvoiceAddress from './individual-components/soe-invoice-address.jsx';
-import SupplierAddress from './individual-components/supplier-address.jsx';
+import DeliveryAddress from './1-individual-components/soe-delivery-address.jsx';
+import InvoiceAddress from './1-individual-components/soe-invoice-address.jsx';
+import SupplierAddress from './1-individual-components/supplier-address.jsx';
 
-// import DeliveryAddress from './connect/soe-delivery-address.jsx';
-// import InvoiceAddress from './connect/soe-invoice-address.jsx';
-// import SupplierAddress from './connect/supplier-address.jsx';
+// import DeliveryAddress from './2-connect/soe-delivery-address.jsx';
+// import InvoiceAddress from './2-connect/soe-invoice-address.jsx';
+// import SupplierAddress from './2-connect/supplier-address.jsx';
 
-// import makeAddressContainer from './higher-order-components/address.container.jsx';
+// import makeAddressContainer from './3-higher-order-components/address.container.jsx';
 // const DeliveryAddress = makeAddressContainer((state) => {
 //   return {
 //     line1: state.soe.deliveryAddress.line1,
