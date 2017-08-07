@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import AddressPresentational from '../address.presentational.jsx';
+import Address from '../address.jsx';
 
 const mapStateToProps = (state) => {
   return {
@@ -13,7 +13,7 @@ const mapStateToProps = (state) => {
 const SoeDeliveryAddress = ({line1, line2}) => {
   return (<div>
     <h3>Using Connect</h3>
-    <AddressPresentational line1={line1} line2={line2} />
+    <Address line1={line1} line2={line2} />
   </div>);
 };
 
