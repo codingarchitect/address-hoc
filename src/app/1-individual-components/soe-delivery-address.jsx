@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Address from '../address.jsx';
-console.log(Address);
 
 const SoeDeliveryAddress = (props, context) => {
   const state = context.store.getState();

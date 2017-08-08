@@ -1,8 +1,18 @@
-import { branch, renderComponent } from 'recompose';
-import MultiLineAddress from './multi-line-address.presentational.jsx';
-import SingleLineAddress from './single-line-address.presentational.jsx';
+import React from 'react';
 
-export default branch(
-  ({mode}) => mode === 'singleLine',
-  renderComponent(SingleLineAddress)  
-)(MultiLineAddress);
+const Address = ({ line1, line2 }) => <div>  
+  <div>
+    <label>
+      Line 1: 
+      <input type="text" value={line1} />
+    </label>
+  </div>
+  <div>
+    <label>
+      Line 2: 
+      <input type="text" value={line2} />
+    </label>
+  </div>
+</div>;
+
+export default Address;

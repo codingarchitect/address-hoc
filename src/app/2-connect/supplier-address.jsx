@@ -5,8 +5,8 @@ import Address from '../address.jsx';
 
 const mapStateToProps = (state) => {
   return {
-    line1: state.soe.invoiceAddress.line1,
-    line2: state.soe.invoiceAddress.line2
+    line1: state.supplierMaintenance.supplierAddress.line1,
+    line2: state.supplierMaintenance.supplierAddress.line2
   };
 }
 
