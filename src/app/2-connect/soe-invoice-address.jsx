@@ -10,10 +10,10 @@ const mapStateToProps = (state) => {
   };
 }
 
-const SoeInvoiceAddress = ({line1, line2}) => {
+const SoeInvoiceAddress = (props) => {
   return (<div>
     <h3>Using Connect</h3>
-    <Address line1={line1} line2={line2} />
+    <Address {...props} />
   </div>);
 };
 

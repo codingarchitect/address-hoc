@@ -8,7 +8,7 @@ const SupplierAddress = (props, context) => {
   const { line1, line2 } = state.supplierMaintenance.supplierAddress;
   return (<div>
     <h3>Individual Component</h3>
-    <Address line1={line1} line2={line2} />
+    <Address line1={line1} line2={line2} {...props} />
   </div>);
 };
 
