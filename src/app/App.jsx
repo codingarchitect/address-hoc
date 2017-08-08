@@ -40,6 +40,15 @@ const greeting = () => {
       <DeliveryAddress3 />
       <InvoiceAddress3 />
       <SupplierAddress3 />
+      <DeliveryAddress1 mode="singleLine"/>
+      <InvoiceAddress1 mode="singleLine"/>
+      <SupplierAddress1 mode="singleLine"/>
+      <DeliveryAddress2 mode="singleLine"/>
+      <InvoiceAddress2 mode="singleLine"/>
+      <SupplierAddress2 mode="singleLine"/>
+      <DeliveryAddress3 mode="singleLine"/>
+      <InvoiceAddress3 mode="singleLine"/>
+      <SupplierAddress3 mode="singleLine"/>
     </div>
   );
 };
